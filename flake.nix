@@ -5,4 +5,4 @@
   outputs = inputs: inputs.flake-parts.lib.mkFlake { inherit inputs; } ({ self, inputs, ... }: {
     flake.source = ./src;
   });
-};
+}
